@@ -51,7 +51,7 @@ void main() {
       ));
     });
 
-    test('should return NumberTrivia when the responce code is 200 (success)', () async {
+    test('should return NumberTrivia when the response code is 200 (success)', () async {
       // arrange
       setUpMockHttpClientSuccess200();
 
@@ -62,7 +62,7 @@ void main() {
       expect(result, equals(tNumberTriviaModel));
     });
 
-    test('should throw a ServerException when the responce code is 404 or other', () async {
+    test('should throw a ServerException when the response code is 404 or other', () async {
       // arrange
       setUpMockHttpClientError404();
 
@@ -93,7 +93,7 @@ void main() {
       ));
     });
 
-    test('should return NumberTrivia when the responce code is 200 (success)', () async {
+    test('should return NumberTrivia when the response code is 200 (success)', () async {
       // arrange
       setUpMockHttpClientSuccess200();
 
@@ -104,7 +104,7 @@ void main() {
       expect(result, equals(tNumberTriviaModel));
     });
 
-    test('should throw a ServerException when the responce code is 404 or other', () async {
+    test('should throw a ServerException when the response code is 404 or other', () async {
       // arrange
       setUpMockHttpClientError404();
 
