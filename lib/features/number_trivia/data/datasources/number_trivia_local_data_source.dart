@@ -16,8 +16,8 @@ abstract class NumberTriviaLocalDataSource {
 
 const CACHED_NUMBER_TRIVIA = 'CACHED_NUMBER_TRIVIA';
 
-class NumberTrivialLocalDataSourceImpl implements NumberTriviaLocalDataSource {
-  NumberTrivialLocalDataSourceImpl(this.sharedPreferences);
+class NumberTriviaLocalDataSourceImpl implements NumberTriviaLocalDataSource {
+  NumberTriviaLocalDataSourceImpl(this.sharedPreferences);
 
   final SharedPreferences sharedPreferences;
 
