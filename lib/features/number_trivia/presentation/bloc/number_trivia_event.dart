@@ -9,3 +9,5 @@ class GetTriviaForConcreteNumber extends NumberTriviaEvent {
 
   final String numberString;
 }
+
+class GetTriviaForRandomNumber extends NumberTriviaEvent {}
